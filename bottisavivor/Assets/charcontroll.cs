@@ -11,7 +11,7 @@ public class charcontroll : MonoBehaviour
     }
 
     // Update is called once per frame
-         public float speed = 20; //  スピード : inspectorで指定
+         public float speed = 0; //  スピード : inspectorで指定
 
     float vx = 0;       //float型x座標
     float vy = 0;       //float型y座標
