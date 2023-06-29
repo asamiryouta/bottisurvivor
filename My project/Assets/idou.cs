@@ -56,14 +56,7 @@ public class idou : MonoBehaviour
 
         }
         //カーソル位置を取得
-        Vector2 mousePosition = Input.mousePosition;
-        //カーソル位置のx座標に
-        mousePosition.x = 10;
-        mousePosition.y = 10;
-        //カーソル位置をワールド座標に変換
-        Vector2 target = Camera.main.ScreenToWorldPoint(mousePosition);
-        //gameobjectのtransform.positionにカーソル位置(ワールド座標)を代入
-        transform.position = target;
+       
     }
 
     void FixedUpdate()
