@@ -25,7 +25,7 @@ public class enemy : MonoBehaviour
         //プレイヤーに向かうベクトルの作成
         p =g.transform.position -this.transform.position;
         //自分自身をプレイヤーに向けて移動
-        this.transform.position += p / 50;
+        this.transform.position += p / 120;
     }
 
     
